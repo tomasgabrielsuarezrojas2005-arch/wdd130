@@ -1,6 +1,6 @@
 :root{
     --primary-color: #055a05;
-    --secondary-color: #f4a261;
+    --secondary-color: #1c2b32;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
     --heading-font:"Times New Roman", "Georgia", serif;
@@ -75,9 +75,9 @@ h1{
     float: right;
     width: 125px;
     padding: 0px;
-    border:  5px dotted #1c2b32;
+    border:  5px dotted var(--secondary-color);
     margin-top: 10px;
-    margin-left: 15px;
+margin-left: 15px;
 }
 
 h2{
@@ -86,10 +86,6 @@ h2{
     margin-top: 4rem;
     background-color: var(--accent2-color);
     padding: 10px;
-}
-
-.adventure{
-    margin-bottom: 2.5rem;
 }
 
 footer{
