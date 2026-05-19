@@ -90,6 +90,7 @@ h2{
 
 footer{
     border-top: 1px dotted black ;
+    margin-top: 2rem;
 }
 footer p{
 margin:0;
@@ -99,8 +100,8 @@ font-size: smaller;
 .socialmedia{
     width:100%;
     display:flex;
-    margin: 0;
 }
+
 .socialmedia img{
     width: 80px;
     margin-right: 1rem;
