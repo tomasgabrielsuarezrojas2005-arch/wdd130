@@ -8,16 +8,24 @@
 }
 nav{
     display: flex;
+    width: 100%;
     background-color: var(--top-color);
-    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
 }
 nav a {
 color: white;
 display: block;
-padding: 20px;
+flex-direction: row;
+padding: 1rem;
+text-decoration: none;
 }
 h1 {
     color:var(--top-color);
+    border-bottom:solid #333;
+    margin-bottom: 1rem;
 }
 
 img{
@@ -37,6 +45,8 @@ main{
 aside{
     width: 20em;  
     text-align: center;
+    position: relative;
+    order:-1;
 }
 
 aside img{
@@ -51,6 +61,11 @@ main img{
     border:1px solid steelblue ;
     padding: 2px ;
     box-shadow: 0 0 30px #333;
+    margin-left: 1rem;
+}
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 footer{
@@ -60,20 +75,31 @@ footer{
 }       
 /*class selectors*/
 .box{
-    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8%;
+    height: 100%;
+    margin: 3rem 1rem 1rem;
     border: 1px solid black;
-    padding: 1rem;
+    padding:  1rem;
     background-color: #eee;
     color: #333;
 } 
 
-aside{
-    position: relative;
-}
-
 aside h2{
     position: absolute;
-    top: 25%;
+    top: 18%;
     left: 40%;
     
+}
+aside p{
+    text-align: justify;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
 }
