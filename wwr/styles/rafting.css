@@ -127,6 +127,9 @@ border-radius: 10px;
 /* section adventures*/
 .adventures{
     margin-top: 5%;
+    background-color: var(--accent1-color);
+    padding:2rem;
+    border-radius: 10px;
 }
 .adventures h2{
 background-color: var(--accent2-color);
@@ -134,13 +137,8 @@ padding: 10px;
 border-radius:  20px;
 text-align: center;
 }
-/*end of section*/
 
-.adventures{
-    background-color: var(--accent1-color);
-    padding:2rem;
-    border-radius: 10px;
-}
+/*end of section*/
 
 .figure-flex{
     display: flex;
@@ -175,7 +173,7 @@ figure {
     height: auto;
 }
 
-h1{
+.hero h1{
     position: absolute;
     background-color: var(--accent2-color);
     top:20px;
@@ -207,15 +205,6 @@ h1{
     border:  5px dotted var(--secondary-color);
     margin-top: 10px;
     margin-left: 15px;
-}
-
-.adventure h2{
-    width: 100%;
-    text-align: center;
-    margin-top: 4rem;
-    background-color: var(--accent2-color);
-    padding: 10px;
-    border-radius:  20px;
 }
 
 footer{
