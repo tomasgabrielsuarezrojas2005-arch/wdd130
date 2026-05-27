@@ -6,11 +6,16 @@
 :root{
 --top-color: darkblue;
 }
+body header{
+    display: grid;
+    justify-items: center;
+    grid-template-rows: auto auto;
+}
 nav{
     display: flex;
     width: 100%;
     background-color: var(--top-color);
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 1rem;
     margin-bottom: 2rem;
