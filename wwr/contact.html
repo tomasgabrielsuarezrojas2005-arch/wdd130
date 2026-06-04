@@ -12,7 +12,7 @@
     <header> 
         <img src="images/logo-z-splash.png" alt="White Water Rafting Logo"> 
         <nav class="head">
-            <a href="../index.html">Home</a>
+            <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="trips.html">Trips</a>
             <a href="contact.html">Contact Us</a>
@@ -33,40 +33,42 @@
             <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13772.314405774052!2d-73.25786274692656!3d-39.78809820994431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1780586281030!5m2!1ses-419!2scl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <form action="">
+            <form>
                 <div class="form-group">
                 <label for="Name">Name</label>
-                <input type="text" placeholder="Enter your name here">
+                <input type="text" id="Name" placeholder="Enter your name here">
                 </div>
 
                 <div class="form-group">
                 <label for="Email">Email</label>
-                <input type="email" placeholder="Enter your email here">
+                <input type="email" id="Email" placeholder="Enter your email here">
                 </div>
                 
                 <div class="form-group-radio">
+
                 <div class="message-purpose">
-                <label for="message-purpose">Message purpose</label>
+                <span>Message purpose</span>
                 </div>
+
                 <label for="General-inquiry">
-                <input type="radio">
+                <input type="radio" id="General-inquiry" name="purpose">
                 General inquiry
                 </label>
 
                 <label for="Reservation-question">
-                <input type="radio">
+                <input type="radio" id="Reservation-question" name="purpose">
                 Reservation question
                 </label>
 
                 <label for="Website-question">
-                <input type="radio">
+                <input type="radio" id="Website-question" name="purpose">
                 Website question
                 </label>
                 </div>
 
                 <div class="form-group-mesagge">
                 <label for="Message">Message</label>
-                <textarea name="message" id="" placeholder="Type here"></textarea>
+                <textarea name="message" id="Message" placeholder="Type here"></textarea>
                 </div>
                 <div class="form-group-checkbox">
                 <label>
