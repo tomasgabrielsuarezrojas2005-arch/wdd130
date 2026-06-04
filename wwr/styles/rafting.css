@@ -346,6 +346,11 @@ textarea{
     letter-spacing: 2px;
     border-radius: 10px;
     text-decoration: none;
+    cursor: pointer;
+    transition: 0.2ms ease;
+}
+.form-button button:hover{
+    background-color: var(--secondary-color);
 }
 input:focus, textarea:focus {
     outline: none;
