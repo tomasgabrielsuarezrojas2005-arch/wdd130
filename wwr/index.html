@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/rafting.css">
-    <meta name="description" content="White Water Rafting website, created with the purpose of giving information about us, our services and our contact methods">
+    <meta name="description" content="Home page of White Water Rafting web page you will find general information about us.">
     <meta name="author" content="Tomás Suárez">
-    <title>About Us | White Water Rafting</title>
+    <title>Home | White Water Rafting</title>
 </head>
 <body>
     <header> 
@@ -20,50 +20,43 @@
     </header>
     <main>
         <div class="hero">
-            <img src="images/rafting27-1024.webp" alt="People rafting on a river">
-
-            <h1>White Water Rafting</h1>
-            <article>
-            <img src="images/raft-with-us59_600.jpg" alt="A group of people posing for a photo before rafting">
-            <p>It's not just about paddling, but about connecting with the team and the power of the river. Our expeditions are designed for all levels, from leisurely family outings to Class IV challenges for the most experienced. Come and experience something that will change the way you see the river!</p>
-            </article> 
+            <img src="images/hero-transparency-1024.webp" alt="People rafting on a river">
+            <h1>Rafting is being happy!</h1>
+            <div class="reserve-button">
+                <a href="trips.html">Book a trip</a>
+            </div>
+        <div class="grid-h2">
+        <h2>Welcome to White Water Rafting!</h2>
+        </div>
+        <section class="home-grid">
+        <div class="grid-card">
+            <img src="images/rafting-team.jpg" alt="Our team guiding a trip">
+            <h3>Our Purpose</h3>
+            <p>We believe in connecting people with nature through high-adrenaline adventures. Our certified    guides ensure a safe, thrilling, and unforgettable experience on Chile's most iconic rivers.</p>
         </div>
 
-        <section class="history">
-            <p>Founded in the heart of the wildest rivers, our company was born from a passion for adventure and deep respect for nature. What started as a small group of friends exploring unknown currents has grown into the leading rafting operator in the entire region today.</p>
-            <h2>History</h2>
-            <img src="images/rafting15-1024.webp" alt="people rafting in a beautiful and quiet river">
-            <p>Today, our goal is to share that adrenaline with every visitor. We provide certified guides and top-tier equipment to ensure your only concern is enjoying the scenery and feeling the raw power of the white water during every exciting descent down the river.</p>
+        <div class="grid-card">
+            <img src="images/safety-gear.jpg" alt="Safety equipment check">
+            <h3>Safety First</h3>
+            <p>Your safety is our top priority. We use state-of-the-art equipment, including professional-grade     rafts, helmets, and life jackets, combined with rigorous safety briefings before every launch.</p>
+        </div>
         </section>
+        <section class="newsletter">
+            <h3>Suscribe to the newsletter!</h3>
+            <form>
+                <div class="form-field">
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="user-name" required placeholder="Your full name">
+                </div>
 
-        <section class="adventures">
-        <h2>Adventure Awaits You!</h2>
-        <div class="figure-flex">
-        <figure>
-            <img src="images/figure1.jpg" alt="rafting in a yellow raft, on white shaked water">
-            <figcaption>White Water Challenge</figcaption>
-        </figure>
-
-        <figure>
-            <img src="images/figure2.jpg" alt="Two yellow rafts in the edge of the river">
-            <figcaption>Base Camp Prep</figcaption>
-        </figure>
-
-        <figure>
-            <img src="images/figure3.jpg" alt="people on a blue raft over the river with mountain landscape">
-            <figcaption>Mountain River Expedition</figcaption>
-        </figure>
-
-        <figure>
-            <img src="images/figure4.jpg" alt="A beautiful river with emerald water">
-            <figcaption>Emerald Canyon</figcaption>
-        </figure>
-
-        <figure>
-            <img src="images/figure5.jpg" alt="A group of people raftin in a yellow raft over a fast-flowing river">
-            <figcaption>Devil's Throat Rapids</figcaption>
-        </figure>
-        </div>
+                <div class="form-field">
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="user-mail" required placeholder="Your Email">
+                </div>
+                <div class="form-field">
+                    <button type="submit">Send me the newsletter!</button>
+                </div>
+            </form>
         </section>
 
     </main>
