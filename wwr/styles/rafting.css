@@ -488,7 +488,7 @@ td{
     padding: 15px 55px;
     border-radius: 10px;
     left: 38%;
-    top: 21.5%;
+    top: 62%;
     font-weight: bolder;
     letter-spacing: 3px;
     transition: 0.3s ease;
@@ -522,7 +522,7 @@ td{
     color: #fff;
     text-align: center;
 }
-.grid-card h3{
+.grid-card h2{
     padding:8px;
 }
 .grid-card p{
@@ -565,7 +565,7 @@ transition: 0.3ms ease;
     padding: 20px;
     border-radius: 10px;
 }
-.newsletter h3{
+.newsletter h2{
     margin-bottom: 1rem;
     color: #fff;
 }
