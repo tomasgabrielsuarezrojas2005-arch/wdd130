@@ -451,13 +451,11 @@ transform: rotateY(180deg);
     transform: translateY(-5px) translateX(1px);
 }
 table{
-    display: flex;
+    border-collapse:collapse ;
     background-color: var(--accent1-color);
     padding:10px;
     color: #fff;
     border-radius: 10px;
-    flex-direction: column;
-    align-items: center;
     margin: 2rem auto;
     width: 100%;
 }
